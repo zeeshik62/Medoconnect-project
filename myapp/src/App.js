@@ -5,7 +5,7 @@ function App() {
     <div>
      <Bulb/>
      <h1>Hello</h1>
-     <h1>Hello</h1>
+     <p>Zeeshan</p>
     </div>
   );
 }
