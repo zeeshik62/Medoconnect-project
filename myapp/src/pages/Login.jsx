@@ -17,8 +17,8 @@ const Login=()=>{
     const handleSubmit= (event)=>
     {
         event.preventDefault();
-        alert(`Email: ${email} \nPassword: ${pass}`)
-        
+        alert(`Email: ${email} \nPassword: ${pass}`);
+        <h1>{email}</h1>
     }
 
 
@@ -43,6 +43,7 @@ const Login=()=>{
  
   <button type="submit" className="btn btn-primary">Sign in</button>
 </form>
+
         </div>
     )
 }
